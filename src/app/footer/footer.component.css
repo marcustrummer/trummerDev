@@ -1,0 +1,127 @@
+* a {
+  font-family: "Raleway", sans-serif;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0;
+  padding: 3px;
+}
+
+.fa {
+  font-size: 15pt;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+.fa-linkedin-square:hover {
+  color: #0072b1;
+}
+
+footer {
+  background: rgb(0, 0, 0) !important;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.edit_hover_class i {
+  visibility: hidden;
+}
+.edit_hover_class:hover i {
+  visibility: visible;
+}
+
+
+/*LINKEDIN*/
+footer a#linkedin:hover {
+  color: #0e76a8;
+}
+.edit_hover_class:hover i#linkedin {
+  visibility: visible;
+  color: #0e76a8;
+}
+/*LINKEDIN  END*/
+
+
+/*instagram*/
+footer a#instagram:hover {
+  color: rgb(193, 53, 132);
+}
+.edit_hover_class:hover i#instagram {
+  visibility: visible;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 255, 0, 1) 0%,
+    rgba(255, 0, 221, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*INSTAGRAM END*/
+
+
+
+/*Facebook*/
+footer a#facebook:hover {
+  color:#3b5998;
+}
+.edit_hover_class:hover i#facebook {
+  visibility: visible;
+  color:#3b5998;
+}
+/*Facebook END*/
+
+/*github*/
+footer a#github:hover {
+  color:#797e88;
+}
+.edit_hover_class:hover i#github {
+  visibility: visible;
+  color:#797e88;
+}
+/*#github   end */
+
+
+/*youtube*/
+footer a#youtube:hover {
+  color:#FF0000;
+}
+.edit_hover_class:hover i#youtube {
+  visibility: visible;
+  color:#FF0000;
+}
+/*#youtube   end */
+
+/*twitter*/
+footer a#twitter:hover {
+  color:#1DA1F2;
+}
+.edit_hover_class:hover i#twitter {
+  visibility: visible;
+  color:#1DA1F2;
+}
+/*twitter   end */
+
+
+
+
+
+
+
+footer a,
+footer a:after,
+footer a:before {
+  transition: all 0.05s;
+}

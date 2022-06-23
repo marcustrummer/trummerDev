@@ -1,0 +1,179 @@
+a,p,strong,h1,button, span{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.c-kcmNSe {
+  padding: 8px 16px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: var(--colors-command);
+  cursor: auto;
+}
+
+div.fill{
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.bgBlack{
+  background-color: #000000;
+
+}
+.divModal {
+  padding: 12px 16px;
+  background: #151417;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  cursor: pointer;
+  color: #8f9ba8;
+}
+
+.divModal:hover{
+  background: grey;
+  color: white;
+}
+
+
+
+
+button{
+  color:white;
+  border-radius: 7px;
+}
+
+kbd{
+  margin-left: 4px;
+}
+
+
+button:hover{
+  color:rgb(255, 255, 255);
+  transition: all 0.8s;
+  background-color: #555;
+  
+}
+
+
+
+
+
+
+strong{
+  color: #fff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
+
+
+p{
+  color: #8f9ba8;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(223, 223, 223);
+
+}
+
+
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+   background: -webkit-linear-gradient(left, rgb(117, 198, 248) , rgb(70, 184, 255));
+   background: -o-linear-gradient(right, rgb(255, 254, 255) , rgb(0, 13, 255));
+   background: -moz-linear-gradient(right, rgb(55, 196, 99) , rgb(0, 255, 72));
+   background: linear-gradient(to right, rgb(255, 255, 255) , rgb(116, 94, 229)); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+  /* NAVIGATION */
+  nav {
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 5px 0px #000000;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+
+
+
+
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(222, 222, 222);
+    font-weight: 800;
+    margin: 0 10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: #555;
+  }
+  
+  
+  /* stroke */
+  nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  nav.fill ul li a {
+    transition: all 2s;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+  
+
+
