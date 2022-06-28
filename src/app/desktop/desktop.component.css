@@ -1,10 +1,32 @@
 h1{
-    font-size: 65px;
+    font-size: 2.7rem;
     font-weight: bold;
-    background: -webkit-linear-gradient(left, #ff80f0 0% , #80ffea 100%);
+    background: -webkit-linear-gradient(left, #ff80f0 0% , #80a2ff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
   }
+p{
+  line-height: 1.8em;
+}
+
+
+h2{
+  color: white;
+}
+
+
+h3{
+  font-size: 18px;
+  margin-right: 12pt;
+}
+
+
+
+li{
+  margin-top: 5px;  
+}
+
 
   .bgBlack{
     background-color: #000000;
@@ -23,4 +45,10 @@ h1{
 
   a:hover{
     color: grey;
+  }
+
+  div#divCentral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
