@@ -188,7 +188,7 @@ button#bMobile {
 
 
   div#container{
-    height: 70vh;
+    height: 60vh;
     background-color: black;
     flex-direction: column;
     display: flex;
