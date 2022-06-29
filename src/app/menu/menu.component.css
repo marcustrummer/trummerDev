@@ -22,14 +22,14 @@ strong:hover {
   -webkit-text-fill-color: transparent;
 }
 
-button {
+button#b1 {
   background-color: #000000;
   color: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 1px;
 }
 
-button:hover {
+button#b1:hover {
   color: rgb(255, 255, 255);
   transition: all 0.8s;
   background-color: #555;
@@ -118,6 +118,22 @@ nav.fill ul li a:hover:after {
   -webkit-animation: fill 1s forwards;
   -moz-animation: fill 1s forwards;
   opacity: 1;
+}
+
+.botaoModal{
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  cursor: pointer;
+  background-color:#151417;
+  color:#151417;
+}
+
+
+.botaoModal:hover{
+  background-color: grey;
 }
 
 /*DIV MODAL*/
