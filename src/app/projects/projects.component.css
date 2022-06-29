@@ -1,7 +1,137 @@
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(135deg, #8aff80 0%, #80ffea 100% );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px, 20px;
+}
+p {
+  line-height: 1.8em;
+  margin: 16px, 0px;
+}
+.p1W {
+  color: #fff;
+  margin-top: 0.3rem;
+}
+
+h2 {
+  color: white;
+  margin-top: 2rem;
+}
+h3 {
+  margin-top: 2rem;
+  font-size: 24px;
+  margin-right: 12pt;
+  color: #fff;
+  font-weight: 600;
+}
+li {
+  margin-top: 5px;
+}
+span {
+  padding: 20px;
+}
+
+.bgBlack {
+  background-color: #000000;
+}
+div.fill {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+strong,
+i,
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+div#divCentral {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c-dIbeSn {
+  font-size: 16px;
+  line-height: 32px;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  padding: 20px 0px;
+}
+
+.c-kMyTwu {
+  display: flex;
+  transition: opacity var(0.5) cubic-bezier(0.4, 0.14, 0.27, 0.58);
+  border: 0px;
+  border-radius: var(--radii-borderRadius);
+  text-decoration: none;
+  width: auto;
+}
+
+.c-jyAlqJ {
+  margin: 10px 0px 0px -20px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+a {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 1px;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  transition: all 0.8s;
+  background-color: #555;
+}
 
 
-div#container{
-    width: 100vh;
-    height: 100vh;
-    background-color: black;
+
+
+@media (max-width: 575.98px) {
+  button#bMobile {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-right: 0px;
+  }
+  p {
+    line-height: 1.8rem;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  strong {
+    margin-top: 1rem;
+    color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-right: 12pt;
+  }
+
+  li {
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+
+  div#divCol6 {
+    width: 100%;
+  }
 }

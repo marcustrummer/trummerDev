@@ -9,6 +9,20 @@ html, body {
   overflow: auto;
   background: black;
   overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 10px solid #000000;
+}
+::-webkit-scrollbar-track {
+  background: #151417;
 }
 
 body{
@@ -18,7 +32,7 @@ body{
 
 p{
     color: #8f9ba8;
-  }
+}
 
   a{
     text-decoration: none!important;
@@ -33,3 +47,13 @@ p{
     background: var(--colors-command);
     cursor: auto;
   }
+  
+
+  .c-kMyTwu {
+    display: flex;
+    transition: opacity var(--transitions-duration) ease-in-out;
+    border: 0px;
+    border-radius: var(--radii-borderRadius);
+    text-decoration: none;
+    width: auto;
+}

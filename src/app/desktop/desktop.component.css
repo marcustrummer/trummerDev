@@ -26,6 +26,9 @@ h3{
 li{
   margin-top: 5px;  
 }
+strong, i , a{
+  color: white;
+}
 
 
   .bgBlack{
@@ -39,9 +42,6 @@ li{
   }
 
 
-  strong, i , a{
-    color: white;
-  }
 
   a:hover{
     color: grey;

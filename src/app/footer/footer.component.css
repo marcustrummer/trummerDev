@@ -1,6 +1,5 @@
 * a {
   font-family: "Raleway", sans-serif;
-  
 }
 
 ul.social-network {
@@ -28,7 +27,7 @@ ul.social-network li {
 }
 
 footer {
-  background: rgb(0, 0, 0) !important;
+  background: rgb(0, 0, 0)!important;
 }
 
 a {
@@ -43,7 +42,6 @@ a {
   visibility: visible;
 }
 
-
 /*LINKEDIN*/
 footer a#linkedin:hover {
   color: #0e76a8;
@@ -53,7 +51,6 @@ footer a#linkedin:hover {
   color: #0e76a8;
 }
 /*LINKEDIN  END*/
-
 
 /*instagram*/
 footer a#instagram:hover {
@@ -72,54 +69,45 @@ footer a#instagram:hover {
 }
 /*INSTAGRAM END*/
 
-
-
 /*Facebook*/
 footer a#facebook:hover {
-  color:#3b5998;
+  color: #3b5998;
 }
 .edit_hover_class:hover i#facebook {
   visibility: visible;
-  color:#3b5998;
+  color: #3b5998;
 }
 /*Facebook END*/
 
 /*github*/
 footer a#github:hover {
-  color:#797e88;
+  color: #797e88;
 }
 .edit_hover_class:hover i#github {
   visibility: visible;
-  color:#797e88;
+  color: #797e88;
 }
 /*#github   end */
 
-
 /*youtube*/
 footer a#youtube:hover {
-  color:#FF0000;
+  color: #ff0000;
 }
 .edit_hover_class:hover i#youtube {
   visibility: visible;
-  color:#FF0000;
+  color: #ff0000;
 }
 /*#youtube   end */
 
 /*twitter*/
 footer a#twitter:hover {
-  color:#1DA1F2;
+  color: #1da1f2;
 }
 .edit_hover_class:hover i#twitter {
   visibility: visible;
-  color:#1DA1F2;
+  color: #1da1f2;
 }
 /*twitter   end */
-
-
-
-
-
-
 
 footer a,
 footer a:after,
@@ -127,101 +115,87 @@ footer a:before {
   transition: all 0.05s;
 }
 
-div#mobile{
+div#mobile {
   display: none;
-
 }
 
-
-
-
-
 @media (max-width: 575.98px) {
-
-  div#mobile{
+  div#mobile {
     display: unset;
   }
 
-  div#pc{
+  div#pc {
     display: none;
-
   }
 
   .edit_hover_class i {
     visibility: visible;
-  
-  
   }
 
-  
-/*LINKEDIN*/
-footer a#linkedin {
-  color: #0e76a8;
-}
-.edit_hover_class i#linkedin {
-  visibility: visible;
-  color: #0e76a8;
-}
-/*LINKEDIN  END*/
+  /*LINKEDIN*/
+  footer a#linkedin {
+    color: #0e76a8;
+  }
+  .edit_hover_class i#linkedin {
+    visibility: visible;
+    color: #0e76a8;
+  }
+  /*LINKEDIN  END*/
 
+  /*instagram*/
+  footer a#instagram {
+    color: rgb(193, 53, 132);
+  }
+  .edit_hover_class i#instagram {
+    visibility: visible;
+    background: linear-gradient(
+      180deg,
+      rgba(251, 255, 0, 1) 0%,
+      rgba(255, 0, 221, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /*INSTAGRAM END*/
 
-/*instagram*/
-footer a#instagram {
-  color: rgb(193, 53, 132);
-}
-.edit_hover_class i#instagram {
-  visibility: visible;
-  background: linear-gradient(
-    180deg,
-    rgba(251, 255, 0, 1) 0%,
-    rgba(255, 0, 221, 1) 100%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-/*INSTAGRAM END*/
+  /*Facebook*/
+  footer a#facebook {
+    color: #3b5998;
+  }
+  .edit_hover_class i#facebook {
+    visibility: visible;
+    color: #3b5998;
+  }
+  /*Facebook END*/
 
+  /*github*/
+  footer a#github {
+    color: #797e88;
+  }
+  .edit_hover_class i#github {
+    visibility: visible;
+    color: #797e88;
+  }
+  /*#github   end */
 
+  /*youtube*/
+  footer a#youtube {
+    color: #ff0000;
+  }
+  .edit_hover_class i#youtube {
+    visibility: visible;
+    color: #ff0000;
+  }
+  /*#youtube   end */
 
-/*Facebook*/
-footer a#facebook {
-  color:#3b5998;
-}
-.edit_hover_class i#facebook {
-  visibility: visible;
-  color:#3b5998;
-}
-/*Facebook END*/
-
-/*github*/
-footer a#github{
-  color:#797e88;
-}
-.edit_hover_class i#github {
-  visibility: visible;
-  color:#797e88;
-}
-/*#github   end */
-
-
-/*youtube*/
-footer a#youtube {
-  color:#FF0000;
-}
-.edit_hover_class i#youtube {
-  visibility: visible;
-  color:#FF0000;
-}
-/*#youtube   end */
-
-/*twitter*/
-footer a#twitter {
-  color:#1DA1F2;
-}
-.edit_hover_class i#twitter {
-  visibility: visible;
-  color:#1DA1F2;
-}
-/*twitter   end */
+  /*twitter*/
+  footer a#twitter {
+    color: #1da1f2;
+  }
+  .edit_hover_class i#twitter {
+    visibility: visible;
+    color: #1da1f2;
+  }
+  /*twitter   end */
 }
