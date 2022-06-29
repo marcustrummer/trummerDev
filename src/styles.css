@@ -2,6 +2,10 @@
 p{
     color: #8f9ba8;
   }
+
+  a{
+    text-decoration: none!important;
+  }
   
 
   .c-kcmNSe {

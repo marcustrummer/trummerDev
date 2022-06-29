@@ -52,3 +52,49 @@ li{
     align-items: center;
     flex-direction: column;
   }
+
+
+  
+@media (max-width: 575.98px) {
+
+  button#bMobile {
+    display: flex;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-right: 0px;
+  }
+  p {
+    margin-top: 2rem;
+    line-height: 1.8rem;
+    font-size: 1rem;
+    margin-bottom: 0px;
+  }
+  strong {
+    margin-top: 1rem;
+    color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 400;
+  }
+  
+
+
+h3{
+  font-size: 1rem;
+  margin-right: 12pt;
+}
+
+
+
+li{
+  margin-top: 5px;  
+  font-size: 1rem;
+}
+
+div#divCol6{
+  width: 100%;
+}
+}

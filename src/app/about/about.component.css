@@ -111,6 +111,74 @@ a,p,strong,h1,button, span, h2{
       display: none;
     }
 
+   
+    
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #6654c8 0%, #54c86b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 6.5rem;
+  }
+  p {
+    margin-right: 6.5rem;
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+  }
+  strong {
+    margin-top: 1rem;
+    color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-weight: 400;
+  }
+
+  div#divCentral {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  button {
+    color: white;
+    border-radius: 7px;
+    appearance: none;
+    background: transparent;
+    border: 0px;
+    border-radius: var(--radii-borderRadius);
+    color: var(#f2f2f2);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    outline: 0px;
+    padding: 0px;
+    margin-top: 0.9rem;
+    text-decoration: none;
+  }
+
+  button#b1 {
+    display: none;
+  }
+
+  button:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.8s;
+    background-color: black;
+  }
+}
 
   }
   
