@@ -129,12 +129,11 @@ nav.fill ul li a:hover:after {
   cursor: pointer;
   background-color:#151417;
   color:#151417;
+  border: #151417;
 }
 
 
-.botaoModal:hover{
-  background-color: grey;
-}
+
 
 /*DIV MODAL*/
 .divModal {
@@ -152,6 +151,14 @@ nav.fill ul li a:hover:after {
   background: grey;
   color: white;
 }
+
+.botaoModal:hover {
+  background: grey;
+  color: grey;
+  border: grey;
+  background-color: grey;
+}
+
 
 .bgBlack {
   background-color: #000000;
