@@ -222,165 +222,164 @@
 <nav id="mobile">
   <div id="divCentral">
     <a class="nav-link mb-2" href="#"><strong>mvT</strong></a>
-    <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <button data-bs-toggle="modal" data-bs-target="#exampleModal">
       <i class="fa fa-bars p-2" aria-hidden="true"></i>
     </button>
   </div>
 
-  <!-- Modal -->
-  <div
-    class="modal fade"
-    id="staticBackdrop"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content bg-dark">
-        <div class="modal-body m-1 p-1">
-          <div class="c-kcmNSe text-white">General</div>
-          <a href="" class="aModal" data-bs-dismiss="modal">
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-clone" aria-hidden="true"></i>
-                <span>Copy url</span>
-              </div>
-              <div area-hidden="true"><kbd>U</kbd></div>
-            </div>
-          </a>
+  <div id="divMenu" class="container-fluid">
+    <div class="navbar-nav">
+      <ul>
+        <li>
+          <a  routerLink="/about">About</a>
+        </li>
+      </ul>
+    </div>
 
-          <a href="mailto: marcusstrummer1@hotmail.com" class="aModal">
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-envelope-o" aria-hidden="true"></i>
-                <span>Send email</span>
-              </div>
-              <div area-hidden="true"><kbd>E</kbd></div>
-            </div>
-          </a>
-          <div class="c-kcmNSe text-white">go to</div>
+  <div class="navbar-nav">
+    <ul>
+      <li>
+        <a  routerLink="/projects">Projects</a>
+      </li>
+    </ul>
+  </div>
+  <div class="navbar-nav">
+    <ul>
+      <li>
+        <a routerLink="/setup">Setup</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
 
-          <a routerLink="/dev" class="aModal" data-bs-dismiss="modal">
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-home" aria-hidden="true"></i>
-                <span>Home</span>
-              </div>
-              <div area-hidden="true"><kbd>G</kbd><kbd>H</kbd></div>
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark">
+      <div class="modal-body m-1 p-1">
+        <div class="c-kcmNSe text-white">General</div>
+        <a href="">
+          <div class="divModal">
+            <div>
+              <i class="me-2 fa fa-clone" aria-hidden="true"></i>
+              <span>Copy url</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>U</kbd></div>
+          </div>
+        </a>
 
-          <a
-            routerLink="/about"
-            class="aModal"
-            data-mdb-dismiss="modal"
-            aria-label="Close"
-            data-bs-dismiss="modal"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-user" aria-hidden="true"></i>
-                <span>About</span>
-              </div>
-              <div area-hidden="true"><kbd>G</kbd><kbd>A</kbd></div>
+        <a href="mailto: marcusstrummer1@hotmail.com" class="aModal">
+          <div class="divModal">
+            <div>
+              <i class="me-2 fa fa-envelope-o" aria-hidden="true"></i>
+              <span>Send email</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>E</kbd></div>
+          </div>
+        </a>
 
-          <a routerLink="/projects" class="aModal" data-bs-dismiss="modal">
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-lightbulb-o" aria-hidden="true"></i>
-                <span>Projects</span>
-              </div>
-              <div area-hidden="true"><kbd>G</kbd><kbd>P</kbd></div>
-            </div>
-          </a>
+        <div class="c-kcmNSe text-white">go to</div>
 
-          <a routerLink="/setup" class="aModal" data-bs-dismiss="modal">
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-desktop" aria-hidden="true"></i>
-                <span>Setup</span>
-              </div>
-              <div area-hidden="true"><kbd>G</kbd><kbd>U</kbd></div>
+        <a routerLink="/dev">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-home" aria-hidden="true"></i>
+              <span>Home</span>
             </div>
-          </a>
-          <div class="c-kcmNSe text-white">follow</div>
+            <div area-hidden="true"><kbd>G</kbd><kbd>H</kbd></div>
+          </div>
+        </a>
 
-          <a
-            href="https://www.instagram.com/marcustrummer/"
-            class="aModal"
-            target="_blank"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-instagram" aria-hidden="true"></i>
-                <span>Instagram</span>
-              </div>
-              <div area-hidden="true"><kbd>F</kbd><kbd>I</kbd></div>
+        <a routerLink="/about">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-user" aria-hidden="true"></i>
+              <span>About</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>G</kbd><kbd>A</kbd></div>
+          </div>
+        </a>
 
-          <a
-            href="https://github.com/marcustrummer"
-            target="_blank"
-            class="aModal"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-github-square" aria-hidden="true"></i>
-                <span>Github</span>
-              </div>
-              <div area-hidden="true"><kbd>F</kbd><kbd>G</kbd></div>
+        <a routerLink="/projects">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-lightbulb-o" aria-hidden="true"></i>
+              <span>Projects</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>G</kbd><kbd>P</kbd></div>
+          </div>
+        </a>
 
-          <a
-            href="https://www.linkedin.com/in/marcus-trummer-880196145/"
-            target="_blank"
-            class="aModal"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-linkedin-square" aria-hidden="true"></i>
-                <span>LinkedIn</span>
-              </div>
-              <div area-hidden="true"><kbd>F</kbd><kbd>L</kbd></div>
+        <a routerLink="/setup">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-desktop" aria-hidden="true"></i>
+              <span>Setup</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>G</kbd><kbd>U</kbd></div>
+          </div>
+        </a>
+        <div class="c-kcmNSe text-white">follow</div>
 
-          <a
-            href="https://www.youtube.com/channel/UCGqK0hD2FQKy-rTUKKTtvTA"
-            class="aModal"
-            target="_blank"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-youtube-play" aria-hidden="true"></i>
-                <span>YouTube</span>
-              </div>
-              <div area-hidden="true"><kbd>F</kbd><kbd>Y</kbd></div>
+        <a href="https://www.instagram.com/marcustrummer/" target="_blank">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-instagram" aria-hidden="true"></i>
+              <span>Instagram</span>
             </div>
-          </a>
+            <div area-hidden="true"><kbd>F</kbd><kbd>I</kbd></div>
+          </div>
+        </a>
 
-          <a
-            href="https://www.twitter.com/trumminho"
-            target="_blank"
-            class="aModal"
-          >
-            <div class="divModal">
-              <div>
-                <i class="me-2 fa fa-twitter-square" aria-hidden="true"></i>
-                <span>Twitter</span>
-              </div>
-              <div area-hidden="true">
-                <kbd>F</kbd><kbd>T</kbd> <kbd>W</kbd>
-              </div>
+        <a href="https://github.com/marcustrummer">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-github-square" aria-hidden="true"></i>
+              <span>Github</span>
             </div>
-          </a>
-        </div>
+            <div area-hidden="true"><kbd>F</kbd><kbd>G</kbd></div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/marcus-trummer-880196145/">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-linkedin-square" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </div>
+            <div area-hidden="true"><kbd>F</kbd><kbd>L</kbd></div>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCGqK0hD2FQKy-rTUKKTtvTA">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-youtube-play" aria-hidden="true"></i>
+              <span>YouTube</span>
+            </div>
+            <div area-hidden="true"><kbd>F</kbd><kbd>Y</kbd></div>
+          </div>
+        </a>
+
+        <a href="https://www.twitter.com/trumminho">
+          <div class="divModal" data-bs-dismiss="modal">
+            <div>
+              <i class="me-2 fa fa-twitter-square" aria-hidden="true"></i>
+              <span>Twitter</span>
+            </div>
+            <div area-hidden="true"><kbd>F</kbd><kbd>T</kbd> <kbd>W</kbd></div>
+          </div>
+        </a>
       </div>
     </div>
   </div>
-</nav>
+</div>
+
 <!-- NAV BAR MOBILE -->
