@@ -1,5 +1,6 @@
 * a {
   font-family: "Raleway", sans-serif;
+  
 }
 
 ul.social-network {
@@ -124,4 +125,103 @@ footer a,
 footer a:after,
 footer a:before {
   transition: all 0.05s;
+}
+
+div#mobile{
+  display: none;
+
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+  div#mobile{
+    display: unset;
+  }
+
+  div#pc{
+    display: none;
+
+  }
+
+  .edit_hover_class i {
+    visibility: visible;
+  
+  
+  }
+
+  
+/*LINKEDIN*/
+footer a#linkedin {
+  color: #0e76a8;
+}
+.edit_hover_class i#linkedin {
+  visibility: visible;
+  color: #0e76a8;
+}
+/*LINKEDIN  END*/
+
+
+/*instagram*/
+footer a#instagram {
+  color: rgb(193, 53, 132);
+}
+.edit_hover_class i#instagram {
+  visibility: visible;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 255, 0, 1) 0%,
+    rgba(255, 0, 221, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*INSTAGRAM END*/
+
+
+
+/*Facebook*/
+footer a#facebook {
+  color:#3b5998;
+}
+.edit_hover_class i#facebook {
+  visibility: visible;
+  color:#3b5998;
+}
+/*Facebook END*/
+
+/*github*/
+footer a#github{
+  color:#797e88;
+}
+.edit_hover_class i#github {
+  visibility: visible;
+  color:#797e88;
+}
+/*#github   end */
+
+
+/*youtube*/
+footer a#youtube {
+  color:#FF0000;
+}
+.edit_hover_class i#youtube {
+  visibility: visible;
+  color:#FF0000;
+}
+/*#youtube   end */
+
+/*twitter*/
+footer a#twitter {
+  color:#1DA1F2;
+}
+.edit_hover_class i#twitter {
+  visibility: visible;
+  color:#1DA1F2;
+}
+/*twitter   end */
 }
