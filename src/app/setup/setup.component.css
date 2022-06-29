@@ -7,6 +7,17 @@ span {
   font-family: "Raleway", sans-serif;
 }
 
+div#container{
+  height: 80vh;
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 div#divCentral {
   flex-direction: column;
   align-items: center;
@@ -20,8 +31,6 @@ button#b1 {
 }
 
 div.fill {
-  height: 100%;
-  width: 100%;
   background-color: #000000;
 }
 
@@ -168,14 +177,22 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
-button#bMobile{
+button#bMobile {
   display: none;
 }
 
 @media (max-width: 575.98px) {
-
   button#bMobile {
     display: flex;
+  }
+
+
+  div#container{
+    height: 70vh;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
   }
 
   h1 {
