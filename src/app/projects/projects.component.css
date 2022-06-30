@@ -89,7 +89,7 @@ a {
   padding: 1px;
 }
 
-a:hover {
+a.span:hover {
   color: rgb(255, 255, 255);
   transition: all 0.8s;
   background-color: #555;

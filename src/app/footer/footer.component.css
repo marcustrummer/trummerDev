@@ -119,11 +119,16 @@ div#mobile {
   display: none;
 }
 
+
 @media (max-width: 575.98px) {
   div#mobile {
     display: unset;
   }
 
+  i{
+    margin: 0.7rem;
+  }
+  
   div#pc {
     display: none;
   }
