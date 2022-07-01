@@ -6,6 +6,11 @@ p {
   background-color: #000000;
 }
 
+.bgModal{
+  background-color: #151417;
+}
+
+
 a#mvt{
   margin-bottom: 0;
   padding-bottom: 1.5rem;
@@ -170,6 +175,7 @@ nav.fill ul li a:hover:after {
   color: grey;
   border: grey;
   background-color: grey;
+  padding: 0px;
 }
 
 
@@ -181,6 +187,11 @@ nav.fill ul li a:hover:after {
 }
 nav#mobile {
   display: none;
+}
+
+div#modalbody{
+  height: 65vh;
+  overflow: auto;
 }
 
 @media only screen and (max-width: 576px) {
