@@ -7,11 +7,14 @@ html, body {
   height: 100vh;
   margin: 0;
   overflow: auto;
-  background: black;
+  background: #08070b;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
+.bgBlack {
+  background-color: #08070b;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -26,7 +29,7 @@ html, body {
 }
 
 body{
-  background: black!important;
+  background: #08070b!important;
 }
 
 

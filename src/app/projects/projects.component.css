@@ -33,13 +33,9 @@ span {
   padding: 20px;
 }
 
-.bgBlack {
-  background-color: #000000;
-}
 div.fill {
   height: 100%;
   width: 100%;
-  background-color: #000000;
 }
 
 strong,
@@ -83,7 +79,7 @@ div#divCentral {
 }
 
 a {
-  background-color: #000000;
+
   color: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 1px;

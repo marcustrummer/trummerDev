@@ -9,7 +9,6 @@ span {
 
 div#container{
   height: 80vh;
-  background-color: black;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -30,9 +29,7 @@ button#b1 {
   margin-right: 17.7%;
 }
 
-div.fill {
-  background-color: #000000;
-}
+
 
 .c-kcmNSe {
   padding: 8px 16px;
@@ -43,9 +40,7 @@ div.fill {
   cursor: auto;
 }
 
-.bgBlack {
-  background-color: #000000;
-}
+
 .divModal {
   padding: 12px 16px;
   background: #151417;
@@ -104,10 +99,9 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 /* NAVIGATION */
-nav {
-  background: rgb(0, 0, 0);
-  box-shadow: 0px 5px 0px #000000;
-}
+
+
+
 nav ul {
   list-style: none;
   text-align: center;
@@ -189,7 +183,6 @@ button#bMobile {
 
   div#container{
     height: 70vh;
-    background-color: black;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -248,6 +241,6 @@ button#bMobile {
   button:hover {
     color: rgb(255, 255, 255);
     transition: all 0.8s;
-    background-color: black;
+    background-color: #08070b;
   }
 }

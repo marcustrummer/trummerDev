@@ -3,7 +3,6 @@ h1,
 a,
 p {
   font-family: "Raleway", sans-serif;
-  background-color: #000000;
 }
 
 .bgModal{
@@ -35,7 +34,7 @@ strong:hover {
 }
 
 button#b1 {
-  background-color: #000000;
+  background-color: #08070b;
   color: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 1px;
@@ -64,8 +63,7 @@ h1 {
 }
 /* NAVIGATION */
 nav {
-  background: rgb(0, 0, 0);
-  box-shadow: 0px 5px 0px #000000;
+  box-shadow: 0px 5px 0px, #08070b;
 }
 nav ul {
   list-style: none;
@@ -179,9 +177,7 @@ nav.fill ul li a:hover:after {
 }
 
 
-.bgBlack {
-  background-color: #000000;
-}
+
 .aModal {
   text-decoration: none;
 }
@@ -229,7 +225,6 @@ div#modalbody{
   div#divCentral {
     display: flex;
     justify-content: space-between;
-    background: #000000;
   }
 
   button#bMenu{
@@ -241,7 +236,6 @@ div#modalbody{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background: #000000;
   }
   a{
     margin: 0px;
