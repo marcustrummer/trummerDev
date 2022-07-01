@@ -103,8 +103,8 @@
     <div class="modal-content bgModal blur">
       <div class="modal-body m-1 p-1" id="modalbody">
         <div class="c-kcmNSe text-white">General</div>
-        <a href="">
-          <div class="divModal">
+        <a (click)="copyUrl()">
+          <div class="divModal" data-bs-dismiss="modal">
             <div>
               <i class="me-2 fa fa-clone" aria-hidden="true"></i>
               <span>Copy url</span>
@@ -114,7 +114,7 @@
         </a>
 
         <a href="mailto: marcusstrummer1@hotmail.com" class="aModal">
-          <div class="divModal">
+          <div class="divModal" data-bs-dismiss="modal">
             <div>
               <i class="me-2 fa fa-envelope-o" aria-hidden="true"></i>
               <span>Send email</span>
