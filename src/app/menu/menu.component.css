@@ -6,6 +6,13 @@ p {
   background-color: #000000;
 }
 
+a#mvt{
+  margin-bottom: 0;
+  padding-bottom: 1.5rem;
+  
+}
+
+
 strong {
   font-weight: bold;
   font-size: 30px;
@@ -27,6 +34,10 @@ button#b1 {
   color: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 1px;
+}
+
+div#navbutton{
+  margin-bottom: 2rem;
 }
 
 button#b1:hover {
@@ -135,6 +146,8 @@ nav.fill ul li a:hover:after {
 
 
 
+
+
 /*DIV MODAL*/
 .divModal {
   padding: 12px 16px;
@@ -178,6 +191,12 @@ nav#mobile {
   nav#mobile {
     display: unset;
   }
+
+  div#modalbody{
+    height: 50vh;
+  }
+
+
   button {
     color: white;
     border-radius: 7px;
@@ -202,6 +221,9 @@ nav#mobile {
     background: #000000;
   }
 
+  button#bMenu{
+    margin-top: 0px;
+  }
 
   div#divMenu {
     width: 100%;
