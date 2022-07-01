@@ -5,6 +5,19 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+
+div#modal{
+  width: 40%;
+  height: 40%;
+  backdrop-filter: blur(5px);
+}
+
+.blur{
+  opacity: 0.6;
+  backdrop-filter: blur(20px);
+}
+
+
 .bgModal{
   background-color: #151417;
 }
@@ -201,6 +214,11 @@ div#modalbody{
 
   div#modalbody{
     height: 50vh;
+  }
+
+  div#modal{
+    width: 100%;
+    backdrop-filter: blur(9px);
   }
 
 
