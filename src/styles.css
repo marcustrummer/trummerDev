@@ -60,3 +60,14 @@ p{
     text-decoration: none;
     width: auto;
 }
+
+div.fill{
+  user-select: none;
+}
+
+.c-dcthTY {
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}

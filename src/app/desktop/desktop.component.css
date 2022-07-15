@@ -1,11 +1,32 @@
 h1{
     font-size: 2.7rem;
     font-weight: bold;
-    background: -webkit-linear-gradient(left, #ff80f0 0% , #80a2ff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    background-image: linear-gradient( 135deg, #ff80f0 0%, #80a2ff 100% );
     margin-bottom: 15px;
+  
   }
+  
+  h1::selection {
+    background: #ff80f0;
+    color: rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+  }
+  
+  
+  ::selection {
+    color: #000000;
+    background: #ff80f0;
+  }
+  
+  
+  
+
+
+
+
+
+
 p{
   line-height: 1.8em;
 }
