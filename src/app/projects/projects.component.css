@@ -81,19 +81,22 @@ div#divCentral {
   padding: 20px 0px;
 }
 
+.fa-cart-arrow-down{
+  font-size: 16pt;
+}
+
 .c-kMyTwu {
   display: flex;
   transition: opacity var(0.5) cubic-bezier(0.4, 0.14, 0.27, 0.58);
-  border: 0px;
-  border-radius: var(--radii-borderRadius);
   text-decoration: none;
-  width: auto;
+  width: 230px;
+  border-radius: 4%;
 }
 
 .c-jyAlqJ {
   margin: 10px 0px 0px -20px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 a {
@@ -148,4 +151,11 @@ a.span:hover {
   div#divCol6 {
     width: 100%;
   }
+
+  .c-kMyTwu {
+    width: 90%;
+  }
 }
+
+
+
