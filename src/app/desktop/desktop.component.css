@@ -63,11 +63,6 @@ strong, i , a{
     color: grey;
   }
 
-  div#divCentral{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
 
 
   

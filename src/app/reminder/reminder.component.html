@@ -1,0 +1,47 @@
+<div class="container-fluid bgBlack">
+  <div class="central row">
+    <div class="col-6" style="text-align: justify" id="divCol6">
+      <div
+        style="justify-content: flex-start; align-items: center; display: flex"
+      >
+        <h1 class="mb-3 c-dcthTY d-flex">A Story. About. Time.</h1>
+        <div class="collapsible-header" (click)="onPlayClick(audio)">
+          <i
+            class="fa fa-pause-circle-o button-grow"
+            aria-hidden="true"
+            *ngIf="isPaused"
+          ></i>
+          <i
+            class="fa fa-play-circle button-grow"
+            aria-hidden="true"
+            *ngIf="!isPaused"
+          ></i>
+        </div>
+      </div>
+      <audio controls #audio (pause)="onPause()">
+        <source src="{{ src }}" type="audio/mpeg" />
+      </audio>
+      <p>
+        Most people nowadays say
+        <em> <strong>"I have no time"</strong> </em> 'Course you don't. Because
+        you are not aware of the <strong>present.</strong> You know,
+        <strong>
+          <em>
+            the present is represented on your watch by a hairline.</em
+          ></strong
+        >
+        That is as thin as possible as is <strong> consistent </strong> with
+        <strong> visibility.</strong> And so everybody thinks the present is...
+        Instead of.. <br />
+        Now, the present is the only real time
+
+        <strong>There is no past.</strong>
+
+        And there isn't a future.
+
+        <strong>And there never will be.</strong>
+      </p>
+      <p><em> - by Kazam </em></p>
+    </div>
+  </div>
+</div>
