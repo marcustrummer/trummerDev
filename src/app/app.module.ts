@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { DesktopComponent } from './desktop/desktop.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ReminderComponent } from './reminder/reminder.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectsComponent } from './projects/projects.component';
     MenuComponent,
     AboutComponent,
     DesktopComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ReminderComponent
   ],
   imports: [
     BrowserModule,

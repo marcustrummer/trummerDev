@@ -36,11 +36,7 @@ h3{
 }
 
 
-div#divCentral {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 
 p {
   line-height: 1.8rem;
@@ -92,7 +88,7 @@ h1::selection {
 }
 
 @media (max-width: 575.98px) {
-  div#divCentral {
+  .central{
     display: flex;
     align-items: center;
     flex-direction: column;
