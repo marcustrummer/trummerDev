@@ -31,6 +31,8 @@ p {
 .p1W {
   color: #fff;
   margin-top: 0.3rem;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 h2 {
@@ -96,7 +98,7 @@ div#divCentral {
 .c-jyAlqJ {
   margin: 10px 0px 0px -20px;
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: nowrap;
 }
 
 a {
@@ -115,7 +117,7 @@ a.span:hover {
 
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 755px) {
   button#bMobile {
     display: flex;
   }
@@ -154,6 +156,30 @@ a.span:hover {
 
   .c-kMyTwu {
     width: 90%;
+  }
+
+  
+.c-jyAlqJ {
+  flex-wrap: wrap;
+}
+}
+
+
+@media (min-width: 756px) and (max-width: 950px) {
+  div#divCol6 {
+    width: 90%;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1100px) {
+  div#divCol6 {
+    width: 75%;
+  }
+
+}
+@media (min-width: 1101px) and (max-width: 1370px) {
+  div#divCol6 {
+    width: 65%;
   }
 }
 

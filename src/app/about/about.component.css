@@ -8,14 +8,14 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 
-
-.fw800{
+.fw800 {
   font-weight: 800;
 }
 
 div#divBOX {
   flex-direction: row;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .divAbout {
@@ -29,14 +29,11 @@ h2 {
   font-weight: 800;
 }
 
-h3{
+h3 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
 }
-
-
-
 
 p {
   line-height: 1.8rem;
@@ -87,20 +84,20 @@ h1::selection {
   background: #9580ff;
 }
 
-@media (max-width: 575.98px) {
-  .central{
+@media (max-width: 755px) {
+  .central {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  div#divCol6	 {
+  div#divCol6 {
     width: 100%;
   }
-
   div#divBOX {
     flex-direction: column;
     align-items: center;
   }
+
   .divAbout {
     width: 100%;
   }
@@ -116,7 +113,6 @@ h1::selection {
     margin-top: 16px;
   }
 
-
   div#fill {
     display: none;
   }
@@ -127,5 +123,23 @@ h1::selection {
   }
   .fill {
     display: none;
+  }
+}
+
+@media (min-width: 756px) and (max-width: 950px) {
+  div#divCol6 {
+    width: 90%;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 1100px) {
+  div#divCol6 {
+    width: 75%;
+  }
+
+}
+@media (min-width: 1101px) and (max-width: 1370px) {
+  div#divCol6 {
+    width: 65%;
   }
 }

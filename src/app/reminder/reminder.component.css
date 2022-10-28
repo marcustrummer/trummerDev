@@ -16,6 +16,13 @@ audio {
   display: none;
 }
 
+p{
+  line-height: 30px;
+  font-size: 16px;
+}
+
+
+
 .fa {
   padding: 1px;
   font-size: 25px;
