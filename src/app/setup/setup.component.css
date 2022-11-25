@@ -8,10 +8,13 @@ span {
 }
 
 div#container{
-  height: 80vh;
+  height: 75vh;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+  padding-right: 250px;
 }
 
 
@@ -19,7 +22,7 @@ div#container{
 
 div#divCentral {
   flex-direction: column;
-  align-items: center;
+  line-height: 32px;
 }
 
 p#p1 {
@@ -27,7 +30,9 @@ p#p1 {
 }
 button#b1 {
   margin-right: 17%;
-  padding: 0.3rem;
+  margin: 0px 0px 0px -6px;
+  width: 52%;
+  border: #08070b;
 }
 
 
@@ -93,7 +98,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 49px;
   font-weight: bold;
   background: -webkit-linear-gradient(left, #6654c8 0%, #54c86b 100%);
   -webkit-background-clip: text;
@@ -176,7 +181,7 @@ button#bMobile {
   display: none;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
   button#bMobile {
     display: flex;
   }
@@ -187,6 +192,8 @@ button#bMobile {
     flex-direction: column;
     display: flex;
     justify-content: center;
+    padding-bottom: 0px;
+    padding-right: 0px;
   }
 
   h1 {
