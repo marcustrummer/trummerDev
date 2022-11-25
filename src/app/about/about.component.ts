@@ -8,7 +8,7 @@ import { ViewChildren, ElementRef } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   @ViewChildren('audio') audioElms!: ElementRef;
-  src: string = '../../../assets/namePronunciation.ogg';
+  src: string = '../../../assets/namePronunciation.mp3';
   isPaused = false;
 
   constructor() { }
