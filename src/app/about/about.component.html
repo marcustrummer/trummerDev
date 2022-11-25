@@ -15,9 +15,24 @@
 
         <div class="divAbout">
           <p>
-            <i>Hey, I'm Marcus Trummer.</i> I started as a software developer in
+            <i>Hey, I'm Marcus Trummer  </i>
+            <span (click)="onPlayClick(audio)" class="ms-1 me-1">
+              <i
+                class="fa fa-pause-circle-o button-grow"
+                aria-hidden="true"
+                *ngIf="isPaused"
+              ></i>
+              <i
+                class="fa fa-play-circle button-grow"
+                aria-hidden="true"
+                *ngIf="!isPaused"
+              ></i>
+            </span>
+             I started as a software developer in
             2021, working with Java.
           </p>
+          
+          
           <p>
             I'm currently an <strong>AEM developer</strong> at Valtech_. Before
             that, I was junior Developer at Indra.. , I'm from Brazil, living in
@@ -30,8 +45,8 @@
           </p>
         </div>
       </div>
-
-
+      
+      
       <h2>Bio</h2>
       <div >
         <blockquote style="    
@@ -43,51 +58,55 @@
         margin-inline-end: 40px;"><p>My name is Marcus, but you can call me Marquito ✌🏻.</p>
         </blockquote>
       </div>
-
+      
       <h2>Career</h2>
-
+      
       <div style="margin-bottom: 40px" class="mt-3">
         <h3>AEM Developer</h3>
         <p style="margin: 0">
           <a href="https://www.valtech.com/pt-br/" target="_blank">Valtech_</a
-          ><span>
-            <span class="fw800"> • </span>
-            Floripa, Santa Catarina</span
-          >
-        </p>
-        <p style="margin: 0">
-          <span>May 2022</span><span> – </span><span>Present</span
-          ><span> <span class="fw800"> • </span> </span><span>6 months</span>
-        </p>
-      </div>
-      <div style="margin-bottom: 40px" class="mt-3">
-        <h3>Junior Backend Developer</h3>
-        <p style="margin: 0">
-          <a href="https://www.indracompany.com/pt-br/" target="_blank">Indra</a
-          ><span>
-            <span class="fw800"> • </span>
-            Joao Pessoa, Paraiba</span
-          >
-        </p>
-        <p style="margin: 0">
-          <span>Dec 2021</span><span> – </span><span>May, 2022</span
-          ><span> • </span><span>6 months</span>
-        </p>
-      </div>
-      <div style="margin-bottom: 40px" class="mt-3">
-        <h3>FullStack Developer</h3>
-        <p style="margin: 0">
-          <a href="https://facilitat.com.br/" target="_blank">Facilitat</a
-          ><span>
-            <span class="fw800"> • </span>
-            Recife, Pernambuco</span
-          >
-        </p>
-        <p style="margin: 0">
-          <span>Oct 2021</span><span> – </span><span>Dec, 2022</span
-          ><span class="fw800"> • </span><span>2 months</span>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+            ><span>
+              <span class="fw800"> • </span>
+              Floripa, Santa Catarina</span
+              >
+            </p>
+            <p style="margin: 0">
+              <span>May 2022</span><span> – </span><span>Present</span
+                ><span> <span class="fw800"> • </span> </span><span>6 months</span>
+              </p>
+            </div>
+            <div style="margin-bottom: 40px" class="mt-3">
+              <h3>Junior Backend Developer</h3>
+              <p style="margin: 0">
+                <a href="https://www.indracompany.com/pt-br/" target="_blank">Indra</a
+                  ><span>
+                    <span class="fw800"> • </span>
+                    Joao Pessoa, Paraiba</span
+                    >
+                  </p>
+                  <p style="margin: 0">
+                    <span>Dec 2021</span><span> – </span><span>May, 2022</span
+                      ><span> • </span><span>6 months</span>
+                    </p>
+                  </div>
+                  <div style="margin-bottom: 40px" class="mt-3">
+                    <h3>FullStack Developer</h3>
+                    <p style="margin: 0">
+                      <a href="https://facilitat.com.br/" target="_blank">Facilitat</a
+                        ><span>
+                          <span class="fw800"> • </span>
+                          Recife, Pernambuco</span
+                          >
+                        </p>
+                        <p style="margin: 0">
+                          <span>Oct 2021</span><span> – </span><span>Dec, 2022</span
+                            ><span class="fw800"> • </span><span>2 months</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <audio controls #audio (pause)="onPause()">
+                    <source src="{{ src }}" type="audio/mpeg" />
+                  </audio>
