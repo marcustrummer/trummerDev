@@ -31,6 +31,9 @@
              I started as a software developer in
             2021, working with Java.
           </p>
+          <audio controls #audio (pause)="onPause()">
+            <source src="{{ src }}" type="audio/mpeg" />
+          </audio>
           
           
           <p>
@@ -107,6 +110,3 @@
                     </div>
                   </div>
                   
-                  <audio controls #audio (pause)="onPause()">
-                    <source src="{{ src }}" type="audio/mpeg" />
-                  </audio>
