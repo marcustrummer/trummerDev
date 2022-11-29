@@ -12,8 +12,9 @@ audio{
   display: none;
 }
 
-span{
-  
+.buttonPlay{
+  background: transparent;
+  font-size: 18px;
 }
 
 .fw800 {
