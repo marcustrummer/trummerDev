@@ -16,8 +16,8 @@
         <div class="divAbout">
           <p>
             <i>Hey, I'm Marcus Trummer  </i>
-            <button (click)="onPlayClick(audio)" class="buttonPlay m-0 p-0">
-              <span>
+            <button (click)="onPlayClick(audio)" class="buttonPlay m-0 p-0 collapsible-header">
+
                 <i
                   class="fa fa-pause-circle-o button-grow"
                   aria-hidden="true"
@@ -28,7 +28,6 @@
                   aria-hidden="true"
                   *ngIf="!isPaused"
                 ></i>
-              </span>
             </button>
              I started as a software developer in
             2021, working with Java.
