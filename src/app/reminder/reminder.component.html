@@ -5,7 +5,7 @@
         style="justify-content: flex-start; align-items: center; display: flex"
       >
         <h1 class="mb-3 c-dcthTY d-flex">A Story. About. Time.</h1>
-        <button class="collapsible-header" (click)="onPlayClick(audio)">
+        <div class="collapsible-header" (click)="onPlayClick(audio)">
           <i
             class="fa fa-pause-circle-o button-grow"
             aria-hidden="true"
@@ -16,7 +16,7 @@
             aria-hidden="true"
             *ngIf="!isPaused"
           ></i>
-        </button>
+        </div>
       </div>
       <audio controls #audio (pause)="onPause()">
         <source src="{{ src }}" type="audio/mpeg" />
