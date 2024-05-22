@@ -95,12 +95,6 @@
         <a routerLink="/reminder">REMINDER</a>
       </li>
     </ul>
-    
-    
-    
-    
-    
-
   </div>
 </nav>
 
@@ -111,6 +105,8 @@
   tabindex="-1"
   aria-labelledby="exampleModalLabel"
   aria-hidden="true"
+  (show.bs.modal)="isModalOpen = true"
+  (hidden.bs.modal)="isModalOpen = false"
 >
   <div
     class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
@@ -119,7 +115,7 @@
     <div class="modal-content bgModal blur">
       <div class="modal-body m-1 p-1" id="modalbody">
         <div class="c-kcmNSe text-white">General</div>
-        <a (click)="copyUrl()">
+        <a (click)="copyUrl()" href="#">
           <div class="divModal" data-bs-dismiss="modal">
             <div>
               <i class="me-2 fa fa-clone" aria-hidden="true"></i>

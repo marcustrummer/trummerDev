@@ -60,6 +60,7 @@ button#b1 {
   color: rgb(255, 255, 255);
   border-radius: 6px;
   padding: 1px;
+  border: black;
 }
 
 div#navbutton{
